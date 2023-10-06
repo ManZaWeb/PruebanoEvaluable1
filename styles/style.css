@@ -5,6 +5,7 @@
 
 h1{
     text-align: center;
+    margin: 30px;
 }
 
 body{
@@ -16,26 +17,28 @@ form{
     display:flex;
     flex-direction: column;
     border: solid 1px;
-    height: 600px;
+    height: auto;
     width: 450px;
     padding: 1%;
     margin: 0 auto;
     border-radius: 5px;
-    box-shadow: 500cap;
 }
 
 button {
     
-    background-color: rgb(30, 33, 181);
+    background-color: rgba(21, 25, 221, 0.784);
     color: rgb(255, 255, 255);
     width: 100px;
-    height: 25px;
+    height: 40px;
     border-radius: 5px;
+    border: transparent;
+    
 }
 
 input{
     width: 90%;
-    height: 20px;
+    height: 50px;
+    border:solid 1px;
     border-radius: 5px;
     margin: 5% 0 5% 0;
 }
